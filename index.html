@@ -4,8 +4,10 @@
   <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="./resources/css/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./resources/css/style.css">
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <!-- Header -->
@@ -16,14 +18,15 @@
         <ul>
           <li><a href="#">Product detail</a></li>
           <li><a href="#">About us</a></li>
-          <li><a href="https://www.instagram.com/">Follow us <img class="icon" src="./resources/images/instagram.png"></a></li>
+          <li><a id="insta" href="https://www.instagram.com/">Follow us <img class="icon" src="./resources/images/instagram.png" title="Instagram"></a></li>
+          <li class="button-box"><a href="#" class="button">Join us</a></li>
         </ul>
       </nav>
       <nav class="mobile">
         <ul>
-          <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
-          <li><a href="#"><img src="./resources/images/ic-product-detail.svg"></a></li>
-          <li><a href="#"><img src="./resources/images/ic-about-us.svg"></a></li>
+          <li><a href="#"><img src="./resources/images/ic-logo.svg" title="Fotomatic"></a></li>
+          <li><a href="#"><img src="./resources/images/ic-product-detail.svg" title="Product detail"></a></li>
+          <li><a href="#"><img src="./resources/images/ic-about-us.svg" title="About us"></a></li>
           <li><a href="#" class="button">Join us</a></li>
         </ul>
       </nav>
@@ -53,10 +56,10 @@
 
     <!-- Features Section -->
     <div id="features-section">
-      <div class="feature">
+      <div class="feature odd">
         <div class="center">
           <div class="image-container">
-            <img src="images/feature-1.png" />
+            <img src="resources/images/feature-1.png" title="Advanced, automatic, instant"/>
           </div>
           <div class="content">
             <h2>Advanced, automatic, instant</h2>
@@ -67,7 +70,7 @@
       <div class="feature">
         <div class="center">
           <div class="image-container">
-            <img src="images/feature-2.png" />
+            <img src="resources/images/feature-2.png" title="Beautifully crafted inside-out"/>
           </div>
           <div class="content">
             <h2>Beautifully crafted inside-out</h2>
@@ -99,10 +102,10 @@
       </div>
     </div>
 
-    <!-- Quotes Section
+    <!-- Quotes Section -->
     <div id="quotes-section">
       <div class="content center">
-        <span class="quote">“It’s truly something that could create a brand new photography Renaissance”</span>
+        <span class="quote">“It's truly something that could create a brand new photography Renaissance”</span>
         <img class="quote-citation" src="./resources/images/photography-logo.png" />
       </div>
     </div>
