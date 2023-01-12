@@ -282,7 +282,7 @@ header .mobile {
 
 .feature .image-container {
   width: 100%;
-  min-height: 65%;
+  height: auto;
   margin: 0;
 }
 
